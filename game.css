@@ -58,6 +58,10 @@ body {
     padding: 0px;
 }
 
+.modal-dialog {
+  z-index: 1001;
+}
+
 .slowlyAppear {
   -webkit-animation: slowlyAppear 0.02s ease-in; /* Chrome, Safari, Opera */
   animation: slowlyAppear 0.02s ease-in;
